@@ -13,33 +13,35 @@ export default function Marco({
   downloadLink = "/path/to/article.pdf",
 }) {
   return (
-    <div className="card">
-      <div className="card-image">
-        <figure className="image is-4by3">
-          <a href={downloadLink} download>
-            <img src={imageCardSrc} alt="Card image" />
-          </a>
-        </figure>
-      </div>
-      <div className="card-content">
-        <div className="media">
-          <div className="media-left">
-            <figure className="image is-48x48">
-              <img src={imageContentSrc} alt="Content image" />
-            </figure>
-          </div>
-          <div className="media-content">
+    <div style={{ margin: "0 10%" }}>
+      <div className="card">
+        <div className="card-image">
+          <figure className="image is-4by3">
             <a href={downloadLink} download>
-              <p className="title is-4 has-text-left">{title}</p>
+              <img src={imageCardSrc} alt="Card image" />
             </a>
-            <p className="subtitle is-6 has-text-left">{subtitle}</p>
-          </div>
+          </figure>
         </div>
+        <div className="card-content">
+          <div className="media">
+            <div className="media-left">
+              <figure className="image is-48x48">
+                <img src={imageContentSrc} alt="Content image" />
+              </figure>
+            </div>
+            <div className="media-content">
+              <a href={downloadLink} download>
+                <p className="title is-4 has-text-left">{title}</p>
+              </a>
+              <p className="subtitle is-6 has-text-left">{subtitle}</p>
+            </div>
+          </div>
 
-        <div className="content has-text-left">
-          {content}
-          <br />
-          <time dateTime={datetime}>{datetime}</time>
+          <div className="content has-text-left">
+            {content}
+            <br />
+            <time dateTime={datetime}>{datetime}</time>
+          </div>
         </div>
       </div>
     </div>

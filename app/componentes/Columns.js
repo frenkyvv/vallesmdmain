@@ -8,14 +8,16 @@ export default function Columns({}) {
   return (
     <div className="columns">
       <div className="column">
-        <Marco
-          title="Yanfei Chen"
-          subtitle="@yanchein"
-          content="Angiotensinogen: a new era beyond lactate as a biomarker?"
-          imageCardSrc="https://live.staticflickr.com/65535/54509109578_b0892561df_h.jpg"
-          dateTime="2024"
-          downloadLink="https://drive.google.com/file/d/1BBoq8p_TDH7LydMcVgPVcUhCi-LFs226/view?usp=sharing"
-        />
+        <div style={{ marginBottom: "30px" }}>
+          <Marco
+            title="Yanfei Chen"
+            subtitle="@yanchein"
+            content="Angiotensinogen: a new era beyond lactate as a biomarker?"
+            imageCardSrc="https://live.staticflickr.com/65535/54509109578_b0892561df_h.jpg"
+            dateTime="2024"
+            downloadLink="https://drive.google.com/file/d/1BBoq8p_TDH7LydMcVgPVcUhCi-LFs226/view?usp=sharing"
+          />
+        </div>
         <Marco
           title="Wei Yu Chua"
           subtitle="@weiyuchua"
@@ -26,14 +28,16 @@ export default function Columns({}) {
         />
       </div>
       <div className="column">
-        <Marco
-          title="Tanya Egodage"
-          subtitle="@tanyaegodage"
-          content="The Intensivist’s Perspective of Shock, Volume Management, and Hemodynamic Monitoring"
-          imageCardSrc="https://live.staticflickr.com/65535/54509188895_aeb4c2eace_c.jpg"
-          downloadLink="https://drive.google.com/file/d/1n8c06oNn21B9n9nNMMj8Rkpa35kni0WH/view?usp=sharing"
-          dateTime="2024"
-        />
+        <div style={{ marginBottom: "30px" }}>
+          <Marco
+            title="Tanya Egodage"
+            subtitle="@tanyaegodage"
+            content="The Intensivist’s Perspective of Shock, Volume Management, and Hemodynamic Monitoring"
+            imageCardSrc="https://live.staticflickr.com/65535/54509188895_aeb4c2eace_c.jpg"
+            downloadLink="https://drive.google.com/file/d/1n8c06oNn21B9n9nNMMj8Rkpa35kni0WH/view?usp=sharing"
+            dateTime="2024"
+          />
+        </div>
         <Marco
           title="Kianoush Kashani"
           subtitle="@kashani"
