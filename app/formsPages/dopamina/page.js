@@ -5,7 +5,7 @@ import "bulma/css/bulma.min.css";
 
 function SecondPage() {
   return (
-    <div className="section has-background-light">
+    
       <div className="container">
         <div className="box has-text-centered">
           <h1 className="title is-3 has-text-primary">Dosis de Dopamina</h1>
@@ -18,7 +18,7 @@ function SecondPage() {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }
 

@@ -5,7 +5,7 @@ import BicarbonatoForm from "./BicaForm";
 
 export default function Pagina5() {
   return (
-    <div className="section has-background-light">
+    
       <div className="container">
         {/* Título principal */}
         <div className="box has-text-centered has-background-primary-light">
@@ -23,6 +23,6 @@ export default function Pagina5() {
           <a href="/formulas" className="button is-danger">Regresar</a>
         </div>
       </div>
-    </div>
+   
   );
 }

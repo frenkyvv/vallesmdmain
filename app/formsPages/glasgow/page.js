@@ -5,7 +5,7 @@ import GlasgowComaScale from "./GSC";
 
 export default function Pagina12() {
   return (
-    <div className="section has-background-light">
+    
       <div className="container">
         {/* Título principal */}
         <div className="box has-text-centered has-background-primary-light">
@@ -25,6 +25,6 @@ export default function Pagina12() {
           <a href="/formulas" className="button is-danger is-medium">Regresar</a>
         </div>
       </div>
-    </div>
+    
   );
 }

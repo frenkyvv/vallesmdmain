@@ -5,7 +5,7 @@ import AlteplaseForm from "./AlteplaseForm";
 
 export default function Pagina7() {
   return (
-    <div className="section has-background-light">
+    
       <div className="container">
         <div className="box has-text-centered has-background-primary-light">
           <h1 className="title is-3 has-text-primary">Dosis de Alteplase</h1>
@@ -22,6 +22,6 @@ export default function Pagina7() {
           <a href="/formulas" className="button is-danger is-medium">Regresar</a>
         </div>
       </div>
-    </div>
+    
   );
 }

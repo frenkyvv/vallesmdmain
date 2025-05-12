@@ -59,10 +59,24 @@ export default function Formulas() {
               </Link>
             </div>
             <div className="box has-text-centered">
+              <h2 className="title is-4">TIMI</h2>
+              <p className="subtitle is-6">Puntaje Riesgo TIMI para IAM con SDST</p>
+              <Link href="/formsPages/timi">
+                <button className="button is-primary is-fullwidth">Ir a TIMI</button>
+              </Link>
+            </div>
+            <div className="box has-text-centered">
               <h2 className="title is-4">CURB65</h2>
               <p className="subtitle is-6">Escala de CURB 65</p>
               <Link href="/formsPages/curb65">
                 <button className="button is-dark is-fullwidth">Ir a CURB 65</button>
+              </Link>
+            </div>
+            <div className="box has-text-centered">
+              <h2 className="title is-4">NIHSS</h2>
+              <p className="subtitle is-6">Escala de NIHSS</p>
+              <Link href="/formsPages/nishh">
+                <button className="button is-black is-fullwidth">Ir a NISHH</button>
               </Link>
             </div>
           </div>
@@ -85,7 +99,7 @@ export default function Formulas() {
               <h2 className="title is-4">Alteplase</h2>
               <p className="subtitle is-6">Cálculo de dosis de Alteplase</p>
               <Link href="/formsPages/alteplase">
-                <button className="button is-primary is-fullwidth">Ir a Alteplase</button>
+                <button className="button is-warning is-fullwidth">Ir a Alteplase</button>
               </Link>
             </div>
 
@@ -93,7 +107,35 @@ export default function Formulas() {
               <h2 className="title is-4">Glasgow</h2>
               <p className="subtitle is-6">Escala de coma de Glasgow</p>
               <Link href="/formsPages/glasgow">
-                <button className="button is-dark is-fullwidth">Ir a Glasgow</button>
+                <button className="button is-primary is-fullwidth">Ir a Glasgow</button>
+              </Link>
+            </div>
+            <div className="box has-text-centered">
+              <h2 className="title is-4">SOFA</h2>
+              <p className="subtitle is-6">Escala de gravedad de SOFA</p>
+              <Link href="/formsPages/sofa">
+                <button className="button is-dark is-fullwidth">Ir a SOFA</button>
+              </Link>
+            </div>
+             <div className="box has-text-centered">
+              <h2 className="title is-4">Wells</h2>
+              <p className="subtitle is-6">Escala para valorar riesgo de TVP</p>
+              <Link href="/formsPages/wells">
+                <button className="button is-danger is-fullwidth">Ir a Wells</button>
+              </Link>
+            </div>
+            <div className="box has-text-centered">
+              <h2 className="title is-4">News</h2>
+              <p className="subtitle is-6">National Early Warning Score</p>
+              <Link href="/formsPages/news">
+                <button className="button is-warning is-fullwidth">Ir a News</button>
+              </Link>
+            </div>
+            <div className="box has-text-centered">
+              <h2 className="title is-4">FINE</h2>
+              <p className="subtitle is-6">Escala de gravedad de Neumonia Adquirida en la comunidad</p>
+              <Link href="/formsPages/fine">
+                <button className="button is-warning is-fullwidth">Ir a FINE</button>
               </Link>
             </div>
           </div>
