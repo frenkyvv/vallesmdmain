@@ -1,23 +1,22 @@
 import React from "react"
-import Fine from "./Fine"
+import CHa2ds2 from "./Cha2dds2"
 import "bulma/css/bulma.min.css"
 
-export default function Pagina17() {
+export default function Pagina20() {
   return (
     
-      <div className="container" style={{ width: "350px" }}>
-        {/* Título principal */}
+      <div className="container">
         <div className="section">
           <div className="has-text-centered">
             <h1 className="title is-3 has-text-weight-bold has-text-primary">
-              Escala de Fine (PSI)
+              Escala de CHA2DS2-VASc
             </h1>
             <p className="subtitle is-5 has-text-grey">
-              Escala de gravedad de Neumonía Adquirida en la Comunidad
+              Estima el riesgo que tiene un paciente con fibrilación o flutter de sufrir un ictus en 1 año
             </p>
           </div>
           <div className="box">
-            <Fine />
+            <CHa2ds2 />
           </div>
         </div>
         <div className="buttons is-centered">
@@ -26,6 +25,6 @@ export default function Pagina17() {
           </a>
         </div>
       </div>
-    
+
   )
 }

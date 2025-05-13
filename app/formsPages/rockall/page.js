@@ -1,23 +1,22 @@
 import React from "react"
-import Fine from "./Fine"
+import RockallForm from "./Rockall"
 import "bulma/css/bulma.min.css"
 
-export default function Pagina17() {
+export default function Pagina21() {
   return (
     
-      <div className="container" style={{ width: "350px" }}>
-        {/* Título principal */}
+      <div className="container">
         <div className="section">
           <div className="has-text-centered">
             <h1 className="title is-3 has-text-weight-bold has-text-primary">
-              Escala de Fine (PSI)
+              Escala de Rockall
             </h1>
             <p className="subtitle is-5 has-text-grey">
-              Escala de gravedad de Neumonía Adquirida en la Comunidad
+              Predictor de riesgo en pacientes con HDA
             </p>
           </div>
           <div className="box">
-            <Fine />
+            <RockallForm />
           </div>
         </div>
         <div className="buttons is-centered">

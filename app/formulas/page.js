@@ -10,18 +10,15 @@ export default function Formulas() {
     <div className="section has-background-light">
       <div className="container">
         {/* Título principal */}
-        <div className="box has-text-centered">
-          <h1 className="title is-2 has-text-primary">Fórmulas</h1>
+        <h1 className="title is-2 has-text-primary">Fórmulas</h1>
+        <div className="box has-text-centered" style={{ width: "450px" }}>
           <p className="subtitle is-5">
             Bienvenido a la página de fórmulas. Aquí puedes seleccionar la fórmula que deseas calcular.
           </p>
         </div>
-
-        {/* Breadcrumbs */}
         <Breads />
-
-        {/* Botones de fórmulas */}
-        <div className="columns is-centered" style={{ marginTop: "30px" }}>
+        <div className="box has-text-centered" style={{ marginTop: "30px", width: "450px" }}>
+        <div className="columns is-centered" >
           <div className="column is-half">
             <div className="box has-text-centered">
               <h2 className="title is-4">Dopamina</h2>
@@ -48,7 +45,7 @@ export default function Formulas() {
               <h2 className="title is-4">Osmolaridad</h2>
               <p className="subtitle is-6">Cálculo de Osmolaridad</p>
               <Link href="/formsPages/osmolaridad">
-                <button className="button is-primary is-fullwidth">Ir a Osmolaridad</button>
+                <button className="button is-success is-fullwidth">Ir a Osmolaridad</button>
               </Link>
             </div>
             <div className="box has-text-centered">
@@ -76,7 +73,14 @@ export default function Formulas() {
               <h2 className="title is-4">NIHSS</h2>
               <p className="subtitle is-6">Escala de NIHSS</p>
               <Link href="/formsPages/nishh">
-                <button className="button is-black is-fullwidth">Ir a NISHH</button>
+                <button className="button is-warning is-fullwidth">Ir a NISHH</button>
+              </Link>
+            </div>
+            <div className="box has-text-centered">
+              <h2 className="title is-4">CHA2DS2</h2>
+              <p className="subtitle is-6">Escala para estimar el riesgo que tiene un paciente con fibrilación o flutter de sufrir un ictus en 1 año"</p>
+              <Link href="/formsPages/cha2ds2">
+                <button className="button is-black is-fullwidth">Ir a CHA2DS2</button>
               </Link>
             </div>
           </div>
@@ -135,11 +139,19 @@ export default function Formulas() {
               <h2 className="title is-4">FINE</h2>
               <p className="subtitle is-6">Escala de gravedad de Neumonia Adquirida en la comunidad</p>
               <Link href="/formsPages/fine">
-                <button className="button is-warning is-fullwidth">Ir a FINE</button>
+                <button className="button is-success is-fullwidth">Ir a FINE</button>
+              </Link>
+            </div>
+            <div className="box has-text-centered">
+              <h2 className="title is-4">Rockall</h2>
+              <p className="subtitle is-6">Predictor de riesgo en pacientes con Hemorragia digestiva</p>
+              <Link href="/formsPages/rockall">
+                <button className="button is-link is-fullwidth">Ir a Rockall</button>
               </Link>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

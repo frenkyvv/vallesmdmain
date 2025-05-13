@@ -16,7 +16,7 @@ export default function OsmoPlasmaticaForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="box">
+    <form onSubmit={handleSubmit} className="box" style={{ width: "350px" }}>
       {/* Campo para el Sodio */}
       <div className="field">
         <label className="label">Sodio (mEq/L):</label>
