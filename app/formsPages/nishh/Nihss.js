@@ -64,6 +64,35 @@ const NihssCalculator = () => {
             </div>
           </div>
         </div>
+        <div className="field">
+          <label className="label">1b. Preguntas Orales</label>
+          <p className="help">(Preguntar el mes actual y la edad)</p>
+          <div className="control">
+            <div className="select is-fullwidth">
+              <select onChange={e => setVerbalResponse(parseInt(e.target.value))}>
+                <option value="0">Ambas respuestas son correctas</option>
+                <option value="1">
+                  Sólo una respuesta es correcta, IOT, muy disártrico o barrera
+                  idiomática
+                </option>
+                <option value="2">Ninguna es correcta</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div className="field">
+          <label className="label">1c. Órdenes Motoras</label>
+          <p className="help">(Cerrar - Abrir los ojos y la mano)</p>
+          <div className="control">
+            <div className="select is-fullwidth">
+              <select onChange={e => setMotorResponse(parseInt(e.target.value))}>
+                <option value="0">Ambas respuestas son correctas</option>
+                <option value="1">Solo una respuesta es correcta</option>
+                <option value="2">Ninguna de las dos es correcta</option>
+              </select>
+            </div>
+          </div>
+        </div>
 
         <div className="field">
           <label className="label">2. Mirada Conjugada</label>

@@ -1,5 +1,6 @@
 import React from "react"
 import NewsScore from "./News"
+import Link from "next/link"
 import "bulma/css/bulma.min.css"
 
 export default function Pagina17() {
@@ -20,9 +21,9 @@ export default function Pagina17() {
           </div>
         </div>
         <div className="buttons is-centered">
-          <a href="/" className="button is-link is-medium">
+          <Link href="/formulas" className="button is-link is-medium">
             Back
-          </a>
+          </Link>
         </div>
       </div>
     

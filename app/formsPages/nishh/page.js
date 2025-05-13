@@ -1,5 +1,6 @@
 import React from "react"
 import NihssCalculator from "./Nihss"
+import Link from "next/link"
 import "bulma/css/bulma.min.css"
 
 export default function Pagina16() {
@@ -21,9 +22,9 @@ export default function Pagina16() {
           </div>
         </div>
         <div className="buttons is-centered">
-          <a href="/" className="button is-link is-medium">
+          <Link href="/formulas" className="button is-link is-medium">
             Back
-          </a>
+          </Link>
         </div>
       </div>
     
